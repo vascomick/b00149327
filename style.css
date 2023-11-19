@@ -1,0 +1,296 @@
+/* navbar*/
+
+.navbar {
+  border: none;
+  outline: none; 
+}
+
+.navbar-toggler:focus {
+  box-shadow: none; 
+}
+
+
+.navbar-nav .nav-link:focus {
+  outline: none;
+}
+
+
+.dropdown-menu {
+  background-color: transparent; 
+  border: none; 
+  box-shadow: none; 
+}
+
+
+.dropdown-item:hover {
+  background-color: #0ee87b; 
+}
+
+
+/* end of navbar*/
+
+
+
+/* header*/
+
+.index-body {
+    height: 100vh;
+    background: url(images/title-img.jpg.jpeg) no-repeat center center;
+    background-size: cover;
+    max-width: 100%;
+    background-position: top;
+}
+  .menu-item:hover {
+    color: #676a6b;
+  }
+
+ /* Top 5 Section Styles */
+
+
+h1, h2, h3 {
+  color: #17a2b8; 
+  text-align: center;
+  letter-spacing: 2px;
+  
+
+}
+
+/* List Styles */
+.top-5 {
+  list-style: none;
+  padding: 0;
+}
+
+.top-5 li {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #dee2e6; /* Bootstrap light gray border color */
+  border-radius: 5px;
+}
+
+/* Carousel Styles */
+.carousel {
+  margin-top: 20px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Adjust carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #17a2b8; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+/* Make carousel indicators smaller */
+.carousel-indicators {
+  bottom: -30px;
+}
+
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  background-color: #dee2e6; 
+  border: none;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #17a2b8; 
+}
+
+
+/* footer */
+.footer {
+  position:fixed;
+  bottom: 0;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
+/*end of footer */
+
+
+.index-footer {
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+   
+}
+
+/* grants */
+.grant-section {
+  background-color: rgba(211, 211, 218, 0.813);
+  background: linear-gradient(to bottom, rgba(211, 211, 218, 0.813), #ffffff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+/*tarrifs*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tariff-container {
+  overflow: hidden; /* Clear floats */
+  margin: 20px;
+}
+
+.tariff-item {
+  margin-bottom: 20px;
+}
+
+.tariff-item img {
+  float: left;
+  margin-right: 10px;
+  max-width: 300px;
+}
+
+.tariff-item p {
+  float: right;
+  max-width: 400px;
+}
+
+
+
+/*tarrifs*/
+
+
+.grant-content {
+  max-width: 600px; /* Adjust the max-width as needed */
+}
+
+.grant-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* end of grants*/
+
+/* contact*/
+body {
+  background-color: #f8f9fa;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+/* end of contact*/
+/* about us */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.about-us-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.column {
+  flex-basis: 100%;
+  margin-bottom: 20px;
+}
+
+.column img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.text-content {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 768px) {
+  .column {
+    flex-basis: 45%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .column {
+    flex-basis: 30%;
+  }
+}
+/* end of about us */
+
+/* Sustainability */
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px; 
+    margin-bottom: 30px;
+  }
+
+  .video-container iframe {
+    width: 100%;
+    max-width: 800px; 
+    height: 380px;
+  }
+
+  
+  h1,
+  h3 {
+    margin: 10px 0;
+  }
+/*end of Sustainability */
+
+/* public charging */
+.gallery img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.gallery p {
+  margin-bottom: 20px;
+}
+/*end of public charging */
